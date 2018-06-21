@@ -15,9 +15,9 @@
   height: 100px;
   width: 100%;
 }
-.nav ul{
+.nav ul {
   float: right;
-  width:600px;
+  width: 600px;
   height: 100px;
 }
 .nav ul li {
@@ -84,10 +84,10 @@ p {
   margin-top: 30%;
   /* margin-left:20%; */
 }
-.right input{
-  margin-top:1em;
+.right input {
+  margin-top: 1em;
   height: 40px;
-  width:250px;
+  width: 250px;
 }
 .button {
   background-color: red;
@@ -101,26 +101,26 @@ p {
   margin: 4px 2px;
   cursor: pointer;
 }
-.footer{
-  width:100%;
+.footer {
+  width: 100%;
   position: absolute;
   height: 80px;
   bottom: 0;
-  background-color:black;
+  background-color: black;
 }
-.footer-bar{
+.footer-bar {
   height: 80px;
   color: white;
 }
-.footer-bar ul{
-  width:720px;
-  margin:0 auto;
+.footer-bar ul {
+  width: 720px;
+  margin: 0 auto;
   height: 80px;
   line-height: 80px;
 }
-.footer-bar ul li{
+.footer-bar ul li {
   float: left;
   list-style-type: none;
-  font-size:20px;
+  font-size: 20px;
   margin-right: 2em;
 }
