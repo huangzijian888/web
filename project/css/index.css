@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Microsoft YaHei UI';
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:#07cbc9;
+    position: fixed;
+    z-index: 99999;
+}
+.logo{
+    width:260px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    margin-top:-24px;
+}
+.nav{
+    width:582.13px;
+    height: 100px;
+    position: absolute;
+    right: 2%;
+    line-height: 100px;
+}
+.nav ul{
+    width:582.13px;
+    height: 100px;
+    color:#ffffff;
+}
+.nav ul li{
+    font-size: 20px;
+    margin-right:1em;
+    list-style-type: none;
+    float: left;
+    font-family: 'Microsoft YaHei UI';
+}
+.banner{
+    width:100%;
+    height: 800px;
+    top:100px;
+    position: relative;
+}
+.banner img{
+    position: absolute;
+    top: 0;
+    width:100%;
+    height: 800px;
+
+}
+.bannerCover{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0.5;
+}
+.reForm{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left:-150px;
+    margin-top:-150px; 
+    z-index: 2;
+    opacity: 0.5;
+}
+.reForm input{
+    width:350px;
+    height: 30px;
+    margin-bottom: 1.5em;
+}
+.reForm textarea{
+    width:350px;
+    height: 100px;
+}
+.reForm button{
+    width:110px;
+    height: 30px;
+    margin-left:120px;
+    margin-top:1.5em;
+}
+.container{
+    position: absolute;
+    top: 950px;
+    width: 100%;
+    height: 100%;
+}
+.about{
+    width:600px;
+    height: 600px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+.about h3{
+    width:100px;
+    margin:0 auto;
+    font-size: 60px;
+}
+.about p{
+    margin-top:1em;
+    line-height: 1.5em;
+}
+.about .left{
+    position: absolute;
+    top:40%;
+    left:15%;
+}
+.about .left p{
+    font-size:30px;
+}
+.leftword{
+    border: 1px black solid;
+    background: #ffffff;
+    /* opacity: 0.4; */
+    width: 600px;
+    height:400px;
+}
