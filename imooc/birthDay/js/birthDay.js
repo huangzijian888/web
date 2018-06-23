@@ -12,6 +12,9 @@ function getDays() {
     month = prompt("出生月份输入错误，请正确输入两位数字出生月份！");
   }
   day = prompt("请输入你出生日期");
+  while(day.length!=2||isNaN(day)==true||day<0||day>31){
+    day = prompt("出生日期输入错误，请正确输入两位数字出生日期");
+  }
   //闰年
   if (year % 100 != 0 && year % 4 == 0) {
     //不是一月出生
