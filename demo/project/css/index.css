@@ -109,16 +109,24 @@ html,body{
 }
 .about .left{
     position: absolute;
-    top:40%;
+    top:35%;
     left:15%;
 }
 .about .left p{
-    font-size:30px;
+    font-size:20px;
 }
 .leftword{
     border: 1px black solid;
-    background: #ffffff;
-    /* opacity: 0.4; */
-    width: 600px;
-    height:400px;
+    background: #ffffffee;
+    opacity: 0.5;
+    width: 410px;
+    height:280px;
+}
+.leftword button{
+    width: 50px;
+    height: 30px;
+    background-color: black;
+}
+.righttop{
+    border: 1px solid #07cbc9 ;
 }
