@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>onblur和onfocus</title>
+    <style type="text/css">
+        .red{
+    		border:1px solid red;
+    	}
+		span{display: block}
+    </style>
+</head>
+<body>
+	姓名：<input type="text"> <span style="display: none">请输入您的姓名</span>
+	<script type="text/javascript">
+		theInput = document.getElementsByTagName('input')[0];
+		theSpan = document.getElementsByTagName('span')[0];
+		theInput.onfocus=function(){
+			theSpan.style.display='inline-block';
+		}
+		theInput.onblur=function(){
+			theSpan.style.display='none';
+			if(theInput.value==''){
+				theInput.setAttribute('class','red');
+			}
+		}
+	</script>
+</body>
+</html>
