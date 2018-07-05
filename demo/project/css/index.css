@@ -109,8 +109,11 @@ html,body{
 }
 .about .left{
     position: absolute;
-    top:35%;
+    top:20%;
     left:15%;
+}
+#word{
+    font-size: 30px;
 }
 .about .left p{
     font-size:20px;
@@ -127,6 +130,21 @@ html,body{
     height: 30px;
     background-color: black;
 }
+.about .right{
+    position: absolute;
+    top:23%;
+    right: 3%;
+}
 .righttop{
+    width:300px;
+    height: 200px;
     border: 1px solid #07cbc9 ;
+    text-align: center;
+}
+.rightbottom{
+    margin-top: 20px;
+    width:300px;
+    height: 200px;
+    border: 1px solid #07cbc9;
+    text-align: center;
 }
